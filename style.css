@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:black;
+    color: white;
+    padding: 20px;
+
+}
+nav h1{
+    font-size: 35px;
+    margin-top: -10px;
+    border-bottom: 2px solid white;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    margin-inline:35px ;
+    list-style: none;
+    font-size: 19px;
+}
+li a:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.container .text{
+    width: 570px;
+    height: 500px;
+    background-color: rgb(255, 224, 229);
+    text-align: center;
+    
+     
+}
+.text h1{
+    margin-top: 88px;
+    font-size: 54px;
+}
+.text h2{
+    margin-top: 12px;
+    font-size: 26px;
+    
+    
+    
+}
+ 
+.text h3{
+    margin-top: 40px;
+    font-size: 55px;
+}
+.text button{
+    width: 150px;
+    height: 40px;
+     
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    margin-top: 70px;
+    font-size: 22px;
+}
+.text button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container .text2{
+    width: 570px;
+    height: 500px;
+    background-color:  rgba(181, 212, 254, 0.858);
+    text-align: center;
+    
+     
+}
+.text2 h1{
+    margin-top: 88px;
+    font-size: 54px;
+}
+.text2 h2{
+    margin-top: 12px;
+    font-size: 26px;
+    
+    
+    
+}
+ 
+.text2 h3{
+    margin-top: 40px;
+    font-size: 55px;
+}
+.text2 button{
+    width: 150px;
+    height: 40px;
+     
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    margin-top: 70px;
+    font-size: 22px;
+}
+.text2 button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.cards .card{
+    margin-inline: 20px;
+     
+}
+.cards .card img:hover{
+      margin-top: -10px;
+}
+.cards .card .price{
+    background-color: rgb(231, 220, 220);
+    height: 70px;
+    margin-top: -5px;
+    font-size: 13px;
+}
+ 
+.SCard{
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    margin-top: 150px;
+    padding: 44px;
+    background-color: black;
+    color: white;
+
+}
+.SCard .img-card{
+    margin-inline: 30px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(235, 227, 227);
+    padding: 44px;
+}
+.footer  li {
+    margin: 10px;
+     
+}
+.footer .point{
+    border-left: 1px solid black   ;
+     margin-left: 33px;
+     padding: 22px;
+    
+
+     
+}
